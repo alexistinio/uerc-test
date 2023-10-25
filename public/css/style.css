@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
+
+
+ul li:target{
+    border-bottom: 1px solid red;
+}
+
+button, input[type="submit"]{
+ background: none;
+ color: inherit;
+ border: none;
+ padding: 0;
+ font: inherit;
+ cursor: pointer;
+ outline: inherit;
+}   
+
+table{
+    width: 100%
+}
+thead{
+    font-size: 16px;
+}
+
+td, th{
+   padding: 10px;  
+   font-family: 'Open Sans', sans-serif;
+}
+
+.row-height{
+    height: 70px
+}
+
+.header{
+    font-family: 'Open Sans', sans-serif;
+ }
+
+.table-border{
+    border-bottom: 1px solid silver
+}
+
+#app nav{
+    position:fixed;
+    z-index: 1000;
+}
+.content{
+  margin-left: 260px;
+  padding: 1px 16px;
+  margin-top: 50px;
+}
+.alert-content{
+    margin-left: 260px;
+    padding: 1px 16px;
+    margin-top: 50px;
+  }
+
+#mobile-sidebar-btn {
+    display: none
+}
+
+#logo {
+    display: none
+}
+
+@media only screen and (min-width: 1300px) { 
+    #logo {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 1300px) { 
+    #mobile-sidebar-btn {
+        display: block
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .content {
+        margin-left: 0;
+    }
+  }
+
+@media only screen and (max-width: 575px) {
+#add_user, #add_researcher, #upload_protocol {
+    width: 100%;
+    margin-top: 15px
+}
+#upload_protocol {
+    width: 100%;
+    margin-top: -20px
+}
+}
+
+  
